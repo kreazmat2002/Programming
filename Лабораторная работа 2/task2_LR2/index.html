@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Задача с отрезками</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script defer src="js/script.js"></script>
+</head>
+
+<body>
+    <h1>Вычисление длины незанятой части отрезка A</h1>
+    <div>
+        <label for="lengthA">Введите длину отрезка A:</label>
+        <input type="number" id="lengthA" min="1" placeholder="...">
+    </div>
+
+    <div>
+        <label for="lengthB">Введите длину отрезка B:</label>
+        <input type="number" id="lengthB" min="1" placeholder="...">
+    </div>
+    <button onclick="calculateUnusedLength()">Рассчитать</button>
+
+    <div id="result"></div>
+</body>
+
+</html>
