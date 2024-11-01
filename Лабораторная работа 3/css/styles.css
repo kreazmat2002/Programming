@@ -1,0 +1,93 @@
+body {
+    background-color: rgb(231, 231, 231);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header div {
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 4px rgba(185, 189, 182, 0.5);
+    background-color: rgb(255, 255, 255);
+    padding: 20px 0px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: calc(100vh - 100px);
+}
+
+main div {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 5px;
+    margin: 10px;
+    flex-grow: 1;
+    flex-direction: column;
+    background: radial-gradient(circle at 10% 20%, rgb(87, 108, 117) 0%, rgb(37, 50, 55) 100.2%);
+}
+
+main p {
+    color: rgba(254, 234, 234, 0.749);
+}
+
+.no {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.getter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+button {
+    width: 220px;
+    height: 30px;
+    padding: 5px 10px 5px 10px;
+    font-size: 16px;
+    background-color: white;
+    border: 1px solid #999;
+    border-radius: 5px;
+    font-family: Tahoma;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+input {
+    width: 200px;
+    height: 15px;
+    padding: 5px 10px 5px 10px;
+    font-size: 14px;
+    font-family: Tahoma;
+    border-radius: 5px;
+    border: 1px solid #999;
+    box-shadow: 0 0 15px 4px rgba(51, 51, 51, 0.06);
+}
+
+nav a {
+    text-decoration: none;
+    margin: 0px 10px;
+    color: black;
+    font-weight: bold;
+}
+
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.8em;
+    color: #777;
+    margin: 0px;
+}
+
+footer p {
+    margin: 0px;
+}
