@@ -17,7 +17,6 @@ function calculate() {
     } else {
         resultElement.innerHTML = 'Ни одно равенство не справедливо';
     }
-
 }
 
 function checkInput(numbers) {
@@ -31,3 +30,13 @@ function checkInput(numbers) {
     }
     return true
 }
+
+function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}
+
