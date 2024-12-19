@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ЛР 4</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" type="image/png" sizes="24x24" href="images/sch.png">
+</head>
+
+<body>
+    <audio id="myAudio" preload="auto" src="./audio/btn-sound.mp3"></audio>
+
+    <button id="bgMusicButton" class="pad-spec">
+    </button>
+
+    <div class="header">
+        <div id="head-txt">Лабораторная работа №4</div>
+        <div><form action="page_2.html"><button id="myButton">Перейти на задание №2</button></form></div>
+    </div>
+
+    <div class="container">
+        <div class="head-cont">
+            <h1 id="number-task">Задание 1.</h1>
+            <p id="story">Дано целое число N и набор из N положительных вещественных чисел. Вывести в том же порядке
+                дробные части всех чисел из данного набора (как вещественные числа с нулевой целой частью), а также
+                произве-дение всех дробных частей.</p>
+        </div>
+
+
+        <div class="text-field">
+            <label class="text-field__label" for="number-size">Переменная N</label>
+            <input id="number-size" class="text-field__input" type="text" placeholder="Введите целое число N (1, 5, 20)">
+            <button onclick="calculate()">Рассчитать</button>
+          </div>
+
+          <div>
+            <p>Результат:</p>
+            <p id="result-text"></p>
+          </div>
+
+    </div>
+
+    <div class="footer">
+        <p>made by Ivolgin Vladislav</p>
+    </div>
+    
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
